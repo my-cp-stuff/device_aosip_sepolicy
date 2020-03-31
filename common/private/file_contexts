@@ -17,3 +17,6 @@
 
 # OTA packages
 /data/aosip_updates(/.*)?           u:object_r:ota_package_file:s0
+
+# vnswap device for zswap
+/dev/block/vnswap0         u:object_r:swap_block_device:s0
